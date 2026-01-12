@@ -1,0 +1,44 @@
+{
+  "name": "FrigoGest Pro Enterprise",
+  "short_name": "FrigoGest",
+  "description": "Software integral de distribución y logística de congelados con IA.",
+  "id": "/frigogest-v2",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0ea5e9",
+  "categories": [
+    "business",
+    "productivity",
+    "logistics"
+  ],
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/5608/5608615.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&q=80&w=1000",
+      "sizes": "1000x600",
+      "type": "image/jpeg",
+      "form_factor": "wide",
+      "label": "Panel de Control de Distribución"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&q=80&w=600",
+      "sizes": "600x1000",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Gestión de Rutas en Móvil"
+    }
+  ],
+  "requestFramePermissions": [
+    "geolocation",
+    "camera"
+  ]
+}
